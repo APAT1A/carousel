@@ -108,14 +108,13 @@
 </div>
 
 
-
-
-
+@yield('content')
+<div class="container">
 
 
 
     @yield('footer')
-
+</div>
 <script src="{{asset('js/jquery.js')}}"></script>
 <script src="{{asset('js/app.js')}}"></script>
 
